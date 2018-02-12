@@ -21,6 +21,28 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "max", //the task name
+            "type": "shell",
+            "command": "gcc", // compile command
+            "args": [ //compile paramters
+                "-g",
+                "max.c",
+                "-o",
+                "${workspaceRoot}/build/max.exe",
+                "-fexec-charset=GBK"
+            ],
+            "presentation": { //task comfiguration
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "group": { //task group ?
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
