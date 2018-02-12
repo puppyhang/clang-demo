@@ -49,6 +49,7 @@
                 "D:/bin/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/7.2.0/*",
                 "D:/bin/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/x86_64-w64-mingw32/include/*",
                 "D:/bin/LLVM/include/*",
+                "D:/bin/LLVM/lib/clang/5.0.1/include/*",
                 "${workspaceRoot}"
             ],
             "defines": [
@@ -64,6 +65,7 @@
                     "D:/bin/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/7.2.0/*",
                     "D:/bin/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/x86_64-w64-mingw32/include/*",
                     "D:/bin/LLVM/include/*",
+                    "D:/bin/LLVM/lib/clang/5.0.1/include/*",
                     "${workspaceRoot}"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
