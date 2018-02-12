@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "hello", //the task name
+            "type": "shell",
+            "command": "gcc", // compile command
+            "args": [ //compile paramters
+                "-g",
+                "hello.c",
+                "-o",
+                "${workspaceRoot}/build/hello-world.exe"
+            ],
+            "presentation": { //task comfiguration
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "group": { //task group ?
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
