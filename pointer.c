@@ -7,4 +7,20 @@
  */
 void main()
 {
+    void testPointer();
+
+    testPointer();
+}
+
+void testPointer()
+{
+    int a, b;
+    int *pointer_a, *pointer_b;
+    a = 100;
+    b = 200;
+    pointer_a = &a;
+    pointer_b = &b;
+    // * pointer 取出指针中存储的值
+    printf("*pointer_a=%d , *pointer_b=%d \n\r", *pointer_a, *pointer_b);
+    printf("pointer_a=%d , pointer_b=%d \n\r", pointer_a, pointer_b);
 }
