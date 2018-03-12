@@ -3,6 +3,8 @@
         "string.h": "c",
         "stdbool.h": "c",
         "math.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "malloc.h": "c"
     }
 }

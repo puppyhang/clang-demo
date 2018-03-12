@@ -54,3 +54,18 @@ gcc 编译器是用4个字节存储整数的
 赋值运算符都是从右到左的运算规则 = *= += -=等等,在加上赋值运算符返回被赋的值，所以可以这样写代码 a=b=10;
 
 如果要输出中文，那么在编译的时候加上这个参数 -fexec-charset=GBK
+
+## C语言关键字作用说明
+
+* typedef 定义类型别名,它用来定义新的类型别名,比如
+    typedef int Length; 此时你就可以使用Length定义变量了，他和int没什么区别
+    typedef char *String; 这样就可使用String表示字符串
+    ```C
+    typedef struct tnode *TreePtr; //TreePtr 是 (struct tnode *) 的别名
+    typedef struct tnode
+    {
+        int data;
+        TreePtr leftChild;
+        TreePtr rightChild;
+    } TreeNode; //TreeNode 是 (struct tnode) 的别名
+    ```
